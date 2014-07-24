@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  subject: MyString
+  period: 1
+  student_id_id: 
+
+two:
+  subject: MyString
+  period: 1
+  student_id_id: 

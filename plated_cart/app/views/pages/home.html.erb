@@ -1,0 +1,43 @@
+<div class="available">
+  <div class="recipes">
+    <h2>Recipes Available</h2>
+    <ul>
+      <% @recipes.each do |r| %>
+        <li>
+          <%= r.name %>
+          <%= select_tag "#{r.id}-recipe-quantity", options_for_select([['2 plates', 2],['4 plates', 4],['6 plates', 6]]) %>
+          <%= link_to 'add to cart', '#', :onClick => "addToCart('recipe', #{r.id}, #{r.name.to_json})" %>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+
+  <div class="gift-cards">
+    <h2>Gift Cards Available</h2>
+    <ul>
+      <% @gift_cards.each do |r| %>
+        <li>
+          <%= r.name %>
+          <%= select_tag "#{r.id}-gift-card-quantity", options_for_select([['1', 1],['2', 2],['3', 3]]) %>
+          <%= link_to 'add to cart', '#', :onClick => "addToCart('gift-card', #{r.id}, #{r.name.to_json});" %>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
+
+<div class="cart">
+  <h2>My Cart</h2>
+  <hr>
+  <%= text_field_tag 'gift_card_code' %><br><%= link_to 'apply gift card', '#', :onClick => 'redeemGiftCard()' %>
+
+  <ul id="cart"></ul>
+  <hr>
+  <h3 id="total-price"></h3>
+
+  <%= link_to 'checkout', '#', :onClick => 'checkoutCart()' %>
+  <hr>
+  <h3>Cart Errors & Messages</h3>
+  <ul id="checkout-message"></ul>
+</div>
+

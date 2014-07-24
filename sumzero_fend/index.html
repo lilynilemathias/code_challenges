@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SumZero Front-End Exam</title>
+  <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+  <script src="jquery.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+  <header>
+    <img src="images/collapse-icon-down.png" id="collapse-icon">
+    <h1>Executive Management</h1>
+    <div id="edit-icon-wrap">
+      <img src="images/icons/monochrome/png/pencil.png" id="edit-icon">
+      <p id="edit">EDIT</p>
+    </div>
+  </header>
+
+  <hr>
+  <div class="profile-wrap">
+    <div class="profile">
+      <img src="images/executive-default-image.png" class="profile-pic">
+      <div class="profile-text">
+        <h3 id="exec-name-1">Executive Number One</h3>
+        <hr class="profile-bar">
+        <p id="exec-text-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique tenetur unde maiores ullam fuga mollitia excepturi vitae ipsum eveniet nesciunt, laborum dignissimos expedita blanditiis quis, ipsam recusandae enim dicta itaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis deserunt atque perferendis optio velit suscipit ullam, amet laudantium, veniam praesentium libero impedit placeat eligendi assumenda eum dolore iusto reprehenderit unde.</p>
+      </div>
+    </div>
+
+    <div class="profile">
+      <img src="images/executive-default-image.png" class="profile-pic">
+      <div class="profile-text">
+        <h3 id="exec-name-2">Executive Number Two</h3>
+        <hr class="profile-bar">
+        <p id="exec-text-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique tenetur unde maiores ullam fuga mollitia excepturi vitae ipsum eveniet nesciunt, laborum dignissimos expedita blanditiis quis, ipsam recusandae enim dicta itaque. Officiis deserunt atque perferendis optio velit suscipit ullam, amet laudantium, veniam praesentium libero impedit placeat eligendi assumenda eum dolore iusto reprehenderit unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="overlay"></div>
+  <div id="modal">
+    <h4>Edit Executive Management<img src="images/icons/monochrome/png/close.png" id="close-icon"></h4>
+    <div class="edit-box">
+    <h5>Manager Information:</h5>
+    <hr>
+      <form>
+        <label for="name">Name *</label>
+        <input type="text" class="name-box">
+
+        <label for="bio">Bio *</label>
+        <textarea class="bio-box" maxlengt="500" onkeyup="textCounter()"></textarea>
+        <!-- <input type="textarea" class="bio-box" maxlength="500" wrap="soft" onkeyup="textCounter()"> --><br>
+        <span><span id="chars-remaining">500</span> Characters Remaining</span>
+        <br>
+      </form>
+    </div>
+    <div class="empty-edit-box"></div>
+    <a href="#" id="add-manager">Add Another Manager</a>
+    <br>
+    <button id="update">UPDATE</button>
+    <button id="cancel">CANCEL</button>
+  </div>
+
+</body>
+</html>

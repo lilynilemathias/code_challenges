@@ -1,0 +1,60 @@
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 5px auto;
+  background-color: #A80000;
+  color: #fffff0;
+  padding: 5px;
+  border-radius: 5%;
+}
+a:hover {background-color: rgba(250, 50, 50, 0.7)}
+
+body {
+  font-family: Georgia;
+  background: url('background.png');
+  color: #333;
+}
+select {
+  margin: auto 10px;
+  border: none;
+  font-family: Georgia;
+  font-size: 18px;
+}
+li {margin: 25px auto;}
+hr {
+  width: 100%;
+  margin: 50px auto;
+}
+input {
+  border: none;
+  margin-bottom: 25px;
+  height: 25px;
+  width: 300px;
+    box-shadow: 0px 0px 2px #fff;
+}
+.remove-link {margin-left: 10px;}
+
+.available {
+  float: left;
+  margin-left: 500px;
+}
+
+.recipes {
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+.cart {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background: #333;
+  display: inline;
+  height: 100%;
+  width: 370px;
+  color: #fff;
+  padding: 15px 10px 0px 10px;
+  overflow: scroll;
+}
+

@@ -1,0 +1,264 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.ttf') format('truetype'),
+		url('fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"]:before {
+*/
+.icon-pen:before, .icon-thumbs-up:before, .icon-thumbs-up-2:before, .icon-heart:before, .icon-heart-2:before, .icon-user:before, .icon-location:before, .icon-location-2:before, .icon-coin:before, .icon-notification:before, .icon-question:before, .icon-info:before, .icon-info-2:before, .icon-blocked:before, .icon-cancel-circle:before, .icon-checkmark-circle:before, .icon-close:before, .icon-checkmark:before, .icon-mail:before, .icon-left-quote:before, .icon-youtube:before, .icon-omega:before, .icon-sigma:before, .icon-quotes-left:before, .icon-bubbles:before, .icon-bubbles-2:before, .icon-play:before, .icon-tags:before, .icon-tag:before, .icon-search:before, .icon-twitter:before, .icon-facebook:before, .icon-linkedin:before, .icon-pencil:before, .icon-bubble:before, .icon-locked:before, .icon-lock:before, .icon-busy:before, .icon-clock:before, .icon-pie:before, .icon-stats:before, .icon-bars:before, .icon-bars-2:before, .icon-target:before, .icon-target-2:before, .icon-bars-3:before, .icon-calendar:before, .icon-arrow-up-left:before, .icon-arrow-up:before, .icon-arrow-up-right:before, .icon-arrow-right:before, .icon-arrow-down-right:before, .icon-arrow-down:before, .icon-arrow-down-left:before, .icon-arrow-left:before, .icon-fire:before, .icon-lightbulb:before, .icon-untitled:before, .icon-untitled-2:before, .icon-untitled-3:before, .icon-untitled-4:before, .icon-untitled-5:before, .icon-untitled-6:before, .icon-untitled-7:before, .icon-untitled-8:before, .icon-untitled-9:before, .icon-untitled-10:before, .icon-untitled-11:before, .icon-untitled-12:before, .icon-untitled-13:before, .icon-untitled-14:before, .icon-untitled-15:before, .icon-untitled-16:before, .icon-untitled-17:before, .icon-untitled-18:before {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-pen:before {
+	content: "\45";
+}
+.icon-thumbs-up:before {
+	content: "\44";
+}
+.icon-thumbs-up-2:before {
+	content: "\43";
+}
+.icon-heart:before {
+	content: "\42";
+}
+.icon-heart-2:before {
+	content: "\41";
+}
+.icon-user:before {
+	content: "\40";
+}
+.icon-location:before {
+	content: "\3f";
+}
+.icon-location-2:before {
+	content: "\3e";
+}
+.icon-coin:before {
+	content: "\3d";
+}
+.icon-notification:before {
+	content: "\3c";
+}
+.icon-question:before {
+	content: "\3b";
+}
+.icon-info:before {
+	content: "\3a";
+}
+.icon-info-2:before {
+	content: "\39";
+}
+.icon-blocked:before {
+	content: "\38";
+}
+.icon-cancel-circle:before {
+	content: "\37";
+}
+.icon-checkmark-circle:before {
+	content: "\36";
+}
+.icon-close:before {
+	content: "\35";
+}
+.icon-checkmark:before {
+	content: "\34";
+}
+.icon-mail:before {
+	content: "\33";
+}
+.icon-left-quote:before {
+	content: "\32";
+}
+.icon-youtube:before {
+	content: "\31";
+}
+.icon-omega:before {
+	content: "\30";
+}
+.icon-sigma:before {
+	content: "\2f";
+}
+.icon-quotes-left:before {
+	content: "\2e";
+}
+.icon-bubbles:before {
+	content: "\2d";
+}
+.icon-bubbles-2:before {
+	content: "\2c";
+}
+.icon-play:before {
+	content: "\2b";
+}
+.icon-tags:before {
+	content: "\2a";
+}
+.icon-tag:before {
+	content: "\29";
+}
+.icon-search:before {
+	content: "\28";
+}
+.icon-twitter:before {
+	content: "\27";
+}
+.icon-facebook:before {
+	content: "\26";
+}
+.icon-linkedin:before {
+	content: "\25";
+}
+.icon-pencil:before {
+	content: "\24";
+}
+.icon-bubble:before {
+	content: "\23";
+}
+.icon-locked:before {
+	content: "\22";
+}
+.icon-lock:before {
+	content: "\21";
+}
+.icon-busy:before {
+	content: "\46";
+}
+.icon-clock:before {
+	content: "\47";
+}
+.icon-pie:before {
+	content: "\48";
+}
+.icon-stats:before {
+	content: "\49";
+}
+.icon-bars:before {
+	content: "\4a";
+}
+.icon-bars-2:before {
+	content: "\4b";
+}
+.icon-target:before {
+	content: "\4c";
+}
+.icon-target-2:before {
+	content: "\4d";
+}
+.icon-bars-3:before {
+	content: "\4e";
+}
+.icon-calendar:before {
+	content: "\4f";
+}
+.icon-arrow-up-left:before {
+	content: "\50";
+}
+.icon-arrow-up:before {
+	content: "\51";
+}
+.icon-arrow-up-right:before {
+	content: "\52";
+}
+.icon-arrow-right:before {
+	content: "\53";
+}
+.icon-arrow-down-right:before {
+	content: "\54";
+}
+.icon-arrow-down:before {
+	content: "\55";
+}
+.icon-arrow-down-left:before {
+	content: "\56";
+}
+.icon-arrow-left:before {
+	content: "\57";
+}
+.icon-fire:before {
+	content: "\67";
+}
+.icon-lightbulb:before {
+	content: "\69";
+}
+.icon-untitled:before {
+	content: "\6a";
+}
+.icon-untitled-2:before {
+	content: "\6b";
+}
+.icon-untitled-3:before {
+	content: "\6e";
+}
+.icon-untitled-4:before {
+	content: "\70";
+}
+.icon-untitled-5:before {
+	content: "\6f";
+}
+.icon-untitled-6:before {
+	content: "\6c";
+}
+.icon-untitled-7:before {
+	content: "\6d";
+}
+.icon-untitled-8:before {
+	content: "\71";
+}
+.icon-untitled-9:before {
+	content: "\72";
+}
+.icon-untitled-10:before {
+	content: "\73";
+}
+.icon-untitled-11:before {
+	content: "\74";
+}
+.icon-untitled-12:before {
+	content: "\75";
+}
+.icon-untitled-13:before {
+	content: "\76";
+}
+.icon-untitled-14:before {
+	content: "\77";
+}
+.icon-untitled-15:before {
+	content: "\78";
+}
+.icon-untitled-16:before {
+	content: "\79";
+}
+.icon-untitled-17:before {
+	content: "\7a";
+}
+.icon-untitled-18:before {
+	content: "\7b";
+}

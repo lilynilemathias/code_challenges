@@ -1,0 +1,52 @@
+[class^="icon-"], 
+[class*=" icon-"] {
+  display: inline-block;
+  width:        20px;
+  height:       20px;
+  line-height:  20px;
+  margin-right: 2px;
+  vertical-align: text-top;
+  background-image: url('images/icons/color/icon-sprites.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.icon-send-message          { background-position: 0 0 }
+.icon-watchlist-add         { background-position: 0 -20px }
+.icon-watchlist-remove      { background-position: 0 -40px }
+.icon-download-vcard        { background-position: 0 -60px }
+.icon-download-cv           { background-position: 0 -80px }
+.icon-follow                { background-position: 0 -100px }
+.icon-unfollow              { background-position: 0 -120px }
+.icon-toggle-closed         { background-position: 0 -140px }
+.icon-toggle-open           { background-position: 0 -160px }
+.icon-notification-settings { background-position: 0 -160px }
+.icon-alert                 { background-position: 0 -300px } 
+.icon-model                 { background-position: 0 -220px }
+.icon-posting               { background-position: 0 -240px }
+.icon-comment               { background-position: 0 -260px }
+.icon-settings              { background-position: 0 -280px }
+.icon-price                 { background-position: 0 -160px }
+.icon-close                 { background-position: 0 -160px }
+
+.icon-location              { background-position: -20px -60px }
+.icon-job                   { background-position: -20px -80px }
+.icon-refer-friend          { background-position: -20px -100px }
+.icon-vcard                 { background-position: -20px -120px }
+.icon-linkedin              { background-position: -20px -140px }
+.icon-download              { background-position: -20px -160px }
+
+.icon-xls                   { background-position: -40px 0 }
+.icon-pdf                   { background-position: -40px -20px }
+.icon-add                   { background-position: -40px -40px }
+.icon-remove                { background-position: -40px -60px }
+.icon-edit                  { background-position: -40px -80px }
+.icon-apply                 { background-position: -40px -100px }
+.icon-star                  { background-position: -40px -120px }
+
+.icon-doc                   { background-position: -60px 0 }
+.icon-ppt                   { background-position: -60px -20px }
+.icon-img                   { background-position: -60px -40px }
+.icon-closed                { background-position: -60px -60px }
+
+.icon-carrot                { background-position: -80px 0 }

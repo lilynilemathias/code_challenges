@@ -1,0 +1,24 @@
+*.sqlite3
+*.sqlite3-journal
+log/*
+tmp/*
+tmp/**/*
+.DS_Store
+doc/api
+doc/app
+db/schema.rb
+public/assets
+public/cache
+public/upload
+public/uploads
+public/public
+tmp/rspec_guard_result
+tmp/log
+.orig
+script/misc/log
+
+# rvm
+.rvmrc
+
+# Used for bundler, only keep the cached directory
+.bundle/*
